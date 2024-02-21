@@ -1,0 +1,64 @@
+/* Reset Css */
+@import url("./reset.css");
+
+/* Font Import */
+@font-face {
+  font-family: Wix;
+  src: url("./../fonts/Wix-Bold.ttf");
+  src: url("./../fonts/Wix-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Lexend;
+  src: url("./../fonts/Lexend-Regular.ttf");
+}
+
+/* Common Css Start*/
+body {
+  font-family: Lexend, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333 !important;
+  background: #fff;
+  transition: all 0.1s linear !important;
+  -webkit-transition: all 0.1s linear !important;
+  -moz-transition: all 0.1s linear !important;
+  -ms-transition: all 0.1s linear !important;
+  -o-transition: all 0.1s linear !important;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Wix, sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: #72b626;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #72b626;
+}
+
+::selection {
+  color: #fff;
+  background-color: #72b626;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #72b626;
+}
+
+/* Common Css End */
+
+/* main */
+
