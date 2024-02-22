@@ -45,8 +45,9 @@ a,
 figure,
 blockquote,
 dl,
-dd {
+dd,ol,ul {
     margin: 0;
+    padding: 0;
 }
 
 

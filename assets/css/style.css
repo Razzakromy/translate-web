@@ -3,23 +3,28 @@
 
 /* Font Import */
 @font-face {
-  font-family: Wix;
-  src: url("./../fonts/Wix-Bold.ttf");
-  src: url("./../fonts/Wix-ExtraBold.ttf");
+  font-family: Inter;
+  src: url("./../fonts/Inter-Regular.ttf");
 }
 
+
+
 @font-face {
-  font-family: Lexend;
-  src: url("./../fonts/Lexend-Regular.ttf");
+  font-family: Satoshi;
+  src: url("./../fonts/Satoshi-Bold.ttf");
+  /* src: url("./../fonts/Inter-SemiBold.ttf"); */
+  /* src: url("./../fonts/Wix-ExtraBold.ttf"); */
 }
+
 
 /* Common Css Start*/
 body {
-  font-family: Lexend, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  color: #333 !important;
-  background: #fff;
+  font-weight: 400 !important;
+  line-height: 24px;
+  color: #00303F;
+  background: #F0F3F4;
   transition: all 0.1s linear !important;
   -webkit-transition: all 0.1s linear !important;
   -moz-transition: all 0.1s linear !important;
@@ -34,13 +39,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Wix, sans-serif;
+  /* font-family: Wix, sans-serif; */
   font-weight: 900;
   text-transform: capitalize;
 }
 
 a:hover {
-  color: #72b626;
+  color: #000;
 }
 
 ::-moz-selection {
@@ -60,5 +65,102 @@ a:hover {
 
 /* Common Css End */
 
-/* main */
+/* Header Start */
+.top_menu {
+  background-color: #FFFFFF;
+  padding: 6px 0;
+}
 
+.top_menu ul {
+  padding-right: 70px;
+}
+
+
+.top_menu ul li a {
+  font-size: 12px;
+  font-weight: 600 !important;
+  padding: 0 15px;
+}
+
+.united_flag {
+  padding-right: 0px !important;
+}
+
+.EN {
+  padding-left: 5px !important;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  margin-right: 30px;
+}
+
+nav.navbar.navbar-expand-lg {
+  padding: 20px 50px;
+}
+
+.navbar ul li a {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.btn_bg {
+  border-radius: 50px;
+  background: #00303F;
+  width: 100px;
+}
+
+.btn_bg a {
+  color: #fff;
+}
+
+.btn_bg:hover {
+  background-color: #ebb000;
+}
+
+.check {
+  width: 180px !important;
+}
+
+
+/* Header End */
+
+/* main */
+.hero_sec .container-fluid {
+  padding: 40px 70px;
+}
+
+.top_text p {
+  margin-right: 10px;
+}
+
+.hero_text .display-1 {
+  font-family: Satoshi, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.hero_text h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+
+.hero_point li {
+  font-weight: 600;
+
+}
+
+.hero_point li p {
+  margin-left: 10px;
+}
+
+.order_btn {
+  width: 20%;
+  color: #fff;
+  padding: 15px 0px;
+}
